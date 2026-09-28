@@ -126,6 +126,7 @@ transition: 1s ease-in-out;
     background-color: black;
     transform: scale(1.05);
 transition: 1s ease-in-out;
+border: 2px yellow solid;
 }
 
 .section2 .btn3 {
