@@ -454,36 +454,45 @@ nav ul li:last-child{
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    nav ul{
-        display: none;
-    }
-    .header-section {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .header-section p {
-        width: auto;
-    }
-    .div1 {
-        grid-template-columns: auto;
-        margin-left: 10px;
-    }
-    .firstsection {
-        flex-direction: column;
-        margin-left: auto;
-    }
-    .first-div {
-        grid-template-columns: auto;
-        margin-left: 5px;
-    }
-    .fulldiv {
-        height: 650px;
-        width: auto;
-        margin: 20px;
-    }
-    .experience {
-        gap: 30px;
-    }
+   nav ul {
+    display: none;
+  }
+  .header-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .header-section p {
+    width: auto;
+  }
+  .div1 {
+    grid-template-columns: auto;
+    margin-left: 15px;
+  }
+  .firstsection {
+    flex-direction: column;
+  }
+  .first-div {
+    grid-template-columns: auto;
+    margin-left: 10px;
+  }
+  .fulldiv {
+    height: 650px;
+    width: 280px;
+    margin-left: 20px;
+  }
+  .div6 {
+    width: auto;
+  }
+  .firstsection {
+    gap: 50px;
+    width: auto;
+  }
+  .btnclass {
+    flex-direction: column;
+  }
+  .experience {
+    gap: 30px;
+  }
 }
 
 
@@ -493,9 +502,9 @@ nav ul li:last-child{
         display: none;
     }
     .header-section {
-        /* flex-direction: column; */
-        /* gap: 20px; */
-        /* align-items: start; */
+        /* flex-direction: column;
+        gap: 20px;
+        align-items: start; */
     }
     .header-section p {
         width: 80% ;
@@ -515,8 +524,30 @@ nav ul li:last-child{
     margin-left: 100px;
 }
 }
+
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    nav ul{
+        display: flex;
+    }
+    .header-section p {
+        width: 60% ;
+        
+}
+.div1 {
+    grid-template-columns: auto auto auto;
+}
+.firstsection {
+    flex-direction: row;
+    margin-left: 130px;
+}
+.div5 {
+    margin-left: 100px;
+}
+.divspan {
+    margin-left: 100px;
+}
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
