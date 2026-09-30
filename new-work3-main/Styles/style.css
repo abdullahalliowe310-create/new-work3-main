@@ -125,8 +125,8 @@ transition: 1s ease-in-out;
 .div1 div:hover {
     background-color: black;
     transform: scale(1.05);
-transition: 1s ease-in-out;
-border: 2px yellow solid;
+    transition: 1s ease-in-out;
+    border: 2px rgba(255, 255, 0, 0.174) solid;
 }
 
 .section2 .btn3 {
@@ -143,7 +143,7 @@ border: 2px yellow solid;
 .section2 .btn3:hover {
    background-color: black;
     transform: translateY(10px);
-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 .section2 .btn4 {
@@ -529,7 +529,7 @@ transition: 1s ease-in-out;
     nav ul{
         display: none;
     }
-    .header-section {
+    .header-section {f
         /* flex-direction: column;
         gap: 20px;
         align-items: start; */
@@ -583,3 +583,17 @@ transition: 1s ease-in-out;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
 
+
+@keyframes bounceAnimation {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+}
+
+.element {
+  animation-name: bounceAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
